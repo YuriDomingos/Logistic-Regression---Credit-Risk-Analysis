@@ -1,0 +1,32 @@
+@relation credit-risk
+
+@attribute idade numeric
+@attribute genero {M,F}
+@attribute estadoCivil {solteiro,casado,divorciado}
+@attribute salario numeric
+@attribute receitas numeric
+@attribute despesas numeric
+@attribute valorSolicitado numeric
+@attribute historicoCredito numeric
+@attribute risco {baixo,alto}
+
+@data
+25,M,solteiro,3000,2000,1500,5000,1,baixo
+40,F,casado,5000,3000,2000,10000,2,alto
+60,M,divorciado,7000,4000,3000,15000,0,alto
+28,M,solteiro,3500,2200,1600,5500,2,baixo
+45,F,casado,5500,3200,2100,12000,1,alto
+55,M,divorciado,6500,3700,2300,13000,3,alto
+32,F,solteiro,3200,1800,1400,4500,2,baixo
+48,M,casado,5800,3500,2200,10000,1,alto
+62,F,divorciado,7200,4200,2800,15000,0,alto
+35,M,solteiro,4000,2500,1700,6000,2,baixo
+50,F,casado,6000,3700,2400,11000,1,alto
+65,M,divorciado,7500,4300,3000,16000,0,alto
+30,M,solteiro,3800,2300,1600,5500,2,baixo
+55,F,casado,6200,3800,2300,13000,1,alto
+70,M,divorciado,8000,4500,3200,17000,0,alto
+33,M,solteiro,4200,2700,1800,6500,2,baixo
+52,F,casado,6300,3900,2500,11500,1,alto
+68,M,divorciado,7700,4400,3100,16500,0,alto
+37,M,solteiro,4500,2800,1900,7000,2,baixo
